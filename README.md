@@ -76,10 +76,9 @@ data and the notebooks that visualize the results can be found in:
 However, the results may be different due to the stochasticity aspects, such as the hyperparameter
 optimization, the model initializations, the generation of the dataset, etc...
 For example, the script that was run to produce the result of the first experiments can 
-be found in .\experiments\experiment_1_delay_length\experiment_1_delay_length.sh 
-and was executed by: 
+be found in 
 
-    qsub.tinygpu .\experiments\experiment_1_delay_length\experiment_1_delay_length.sh
+    experiments\experiment_1_delay_length\experiment_1_delay_length.sh
 
 
 
@@ -89,18 +88,8 @@ Run them with the following command:
 
     pytest . 
 
-##  Chapter 4.7 Importance Visualization 
+##  Importance Visualization 
 
 The notebook for the hyperparameter optimization importance can be found in    
 
-    experiments/experiment_3_sequence_length/0.4.4-mnd-hp_opt_importance_visualization.ipynb
-
-## Proof of Concept Trainings 
-
-The proof of concept trainings were performed on old versions of the repository. For more information, see:  
-
-https://mad-srv.informatik.uni-erlangen.de/MadLab/industry-4.0/student-projects/analysis-of-the-robustness-of-transformer-models/-/merge_requests/13
-
-https://mad-srv.informatik.uni-erlangen.de/MadLab/industry-4.0/student-projects/analysis-of-the-robustness-of-transformer-models/-/issues/11
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+experiments/experiment_3_sequence_length/0.4.4-mnd-hp_opt_importance_visualization.ipynb
