@@ -1,4 +1,4 @@
-# Systematic Analysis of the Transformer Architecture for Time Series Prediction Applications
+# Data-Centric Benchmarking of Neural Network Architectures for the Univariate Time Series Prediction Task 
 
 ## Installation 
 Tested on Windows 10 
